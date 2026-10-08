@@ -1,0 +1,10 @@
+pbfd
+pbf
+tests/test
+*.exe
+*.o
+*.dSYM/
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
