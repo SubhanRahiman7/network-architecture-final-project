@@ -1,0 +1,3 @@
+#!/bin/sh
+# bserve <document_root> <port>  -  the PBF/1 server (an alias for ./pbfd, run `make` first)
+exec "$(dirname "$0")/pbfd" "$@"

@@ -1,0 +1,3 @@
+#!/bin/sh
+# bcurl [-v] host:port/path ...  -  the PBF/1 client (an alias for ./pbf, run `make` first)
+exec "$(dirname "$0")/pbf" "$@"
